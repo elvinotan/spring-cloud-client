@@ -9,7 +9,17 @@ Actuator</br>
 Config Client</br>
 
 # how to
-1. Tambahkan @EnableDiscoveryClient pada SpringBootApplicationClass, dengan konfigurasi ini menandakan service ini ingin mendaftar dirinya pakan EurekaServcer. 
+1. Tambahkan @EnableDiscoveryClient pada SpringBootApplicationClass, dengan konfigurasi ini menandakan service ini ingin mendaftar dirinya pakan EurekaServer. 
+```
+@SpringBootApplication
+@EnableDiscoveryClient
+public class SpringEurekaClientApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringEurekaClientApplication.class, args);
+	}
+}
+```
 2. Buatlah bootstrap.yml sebagai pengganti application.properties
 ```
 --- 
