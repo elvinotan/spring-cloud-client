@@ -1,1 +1,1 @@
-# spring-cloud-client
+# spring-eureka-client
