@@ -34,5 +34,5 @@ spring:
 Snippet di atas menandakan, aplikasi ini bernama SpringEurekaClient dan mohon load konfigurasi dari Spring Config yang configurasinya berdama SpringEurekaClient.yml
 
 # Note
-Untuk konfigurasi app ini please refer to https://github.com/elvinotan/config/SpringEurekaClient.yml
+Untuk konfigurasi app ini please refer to ```https://github.com/elvinotan/config/SpringEurekaClient.yml```
 Apabila konfigurasi sudah di buat di sisi config server lalukan testing berdasarkan http:{url-config-server}:{port-config-server}/{app-name}/{app-profile}
